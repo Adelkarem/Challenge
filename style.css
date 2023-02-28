@@ -1,0 +1,406 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+ cursor: url("/Task Design/defualtmousicon.png"),default;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;  
+  background-image: url("/Task Design/blue_bg.png");
+width: 100%;
+height: auto;
+min-height: 600px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+ 
+}
+.left-nav{
+display: flex;
+width: 60%;
+font-size: 19px;
+
+}
+.link-nav{
+    display: flex;
+ width: 70%;
+ justify-content: space-between;
+ margin-top: 10px;
+ 
+}
+
+.tag img{
+    width: 120px;
+    position: relative;
+    bottom:15px;
+}
+a{
+    text-decoration-line: none;
+}
+a:hover{
+    
+  text-decoration: underline 4px rgb(240, 35, 131);
+
+}
+.right-nav .log{
+    color:black;
+    position: absolute;
+    top: 14px;
+    left: 34%;
+
+}
+.right-nav{
+    position: absolute;
+    right: 25px;
+    margin-top: 10px;
+}
+/* end nav */
+.img2{
+    position: relative;
+  
+}
+.pic1{
+    position: absolute;
+    width: 600px;
+    right: 140px;
+  
+    }
+.pic3{
+    position: absolute;
+    width: 250px;
+    right: 350px;
+    top: 40px;
+}
+
+
+.pic2{
+position: absolute;
+width: 350px;
+right: 270px;
+top:370px;
+z-index: 1;
+opacity: 0.9;
+}
+
+nav .pic4{
+    position: absolute;
+  width: 95%;
+top: 410px;
+right: 450px;
+}
+.text{
+position: absolute;
+left: 60px;
+top: 200px;
+font-size: 30px;
+color: rgba(56, 56, 56, 0.473);
+
+
+}
+/* finsh-part1 */
+
+section{
+    position: relative;
+}
+.m-img .m1{
+    position: absolute;
+    top: 70px;
+    left: 270px;
+    width: 70%;
+ }
+.m-img .m2{
+    position: absolute;
+    top: 155px;
+    left: 130px;
+  
+ }
+.m-img .m3{
+    position: absolute;
+    top: 320px;
+    left: 670px;
+    width: 200px;
+  
+ }
+.m-img .m4{
+    position: absolute;
+    top: 600px;
+  right: 200px;
+    width: 240px;  
+ }
+.m-img .m5{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    width: 300px;  
+ }
+
+.tex-img{
+    position: relative;
+}
+.tex-img .text1{
+    position: absolute;
+    left: 120px;
+    font-size: 18px;
+    top: 350px;
+    color: rgba(68, 68, 68, 0.801);
+}
+
+.p-text{
+    position: relative;
+right: 40px;
+font-size: 23px;
+    
+}
+.p-text2{
+    position: relative;
+right: 68px;
+font-size: 23px;
+    
+}
+
+.midel-text{
+    position: relative;
+    top: 470px;
+    color: rgba(68, 68, 68, 0.801);
+}
+.midel-text .h-v{
+    position: absolute;
+    font-size: 25px;
+    left: 43%;
+  
+
+}
+.midel-text .p-v{
+    position: absolute;
+    font-size: 23px;
+    left: 35%;
+    top: 30px; 
+}
+.midel-text .p-b{
+    position: absolute;
+    font-size: 23px;
+    left: 40%;
+    top: 60px; 
+
+}
+/* last-text */
+.last-text{
+    position: relative;
+    top: 470px;
+    color: rgba(68, 68, 68, 0.801);
+}
+.last-text .l-text{
+    position: absolute;
+    font-size: 25px;
+    right: 250px;
+    top: 290px;
+}
+.last-text .l-s{
+    position: absolute;
+    font-size: 25px;
+    right: 60px;
+    top: 320px;
+}
+
+.last-text .l-a{
+    position: absolute;
+    font-size: 26px;
+    right: 30px;
+    top: 350px;
+}
+
+/* left-text */
+.left-text{
+    position: relative;
+    top: 470px;
+    color: rgba(243, 241, 241, 0.801);
+  
+}
+
+.left-text .last-h{
+    position: absolute;
+    left: 270px;
+    top: 120px;
+    font-size: 17px;
+}
+.left-text .last-j{
+    position: absolute;
+    left: 275px;
+    top: 150px;
+    font-size: 33px;
+
+}
+
+/* end-first-part */
+
+.three-img{
+position: relative;
+top: 800px;
+}
+.three-img .first{
+position: absolute;
+left: 500px;
+top: 150px;
+width: 450px;
+}
+.three-img .secound{
+    position: absolute;
+    top: 280px;
+    left: 140px;
+    width: 220px;
+}
+.three-img .last-pic{
+    position: absolute;
+    top: 260px;
+    right: 140px;
+}
+.slider1{
+    position: absolute;
+    right: 500px;
+    top: 480px;
+    font-size: 40px;
+    color: rgba(161, 157, 157, 0.856);
+}
+
+.slider2{
+    position: absolute;
+    left: 500px;
+    top: 480px;
+    font-size: 40px;
+    color: rgba(161, 157, 157, 0.856);
+}
+
+.text9{
+    position: absolute;
+    top: 530px;
+    left: 570px;
+    color: rgba(68, 68, 68, 0.877);
+    font-size: 30px;
+}
+.text10{
+    position: absolute;
+    top: 600px;
+    left: 580px;
+    color: rgba(68, 68, 68, 0.877);
+    font-size: 25px;
+  
+}
+.text11{
+    position: absolute;
+    top: 660px;
+    left: 640px;
+    color: rgba(68, 68, 68, 0.877);
+    font-size: 25px;
+}
+ 
+/* start-footer */
+
+
+.f15{
+
+width: 1550px;
+height: 590px;
+position: relative;
+top: 1300px;
+background-image: url("/Task Design/Group 1131.png");
+background-size: 110% 140%;
+right: 201px;
+}
+
+.f16{
+    width: 730px;
+    position: relative;
+    left: 750px;
+    top: 102px;
+}
+
+.apple{
+   
+    width: 120px;
+    height: 50px;
+    position: relative;
+    left: 260px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+    bottom: 120px;
+}
+
+.text-apple{
+    position: relative;
+    font-size: 11px;
+    bottom: 30px;
+    left: 35px;
+    color: rgba(68, 68, 68, 0.801);
+    font-style: italic;
+}
+
+
+.play-store{
+   
+    width: 120px;
+    height: 50px;
+    position: relative;
+    left: 400px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+    bottom: 170px;
+}
+
+.text-play{
+    position: relative;
+    font-size: 11px;
+    bottom: 30px;
+    left: 35px;
+    color: rgba(68, 68, 68, 0.801);
+    font-style: italic;
+}
+
+.icon{
+    position: relative;
+    bottom: 140px;
+  margin-left: 250px;
+
+width: 200px;
+}
+
+.icon-insta{
+    position: absolute;
+
+}
+.icon-whats{
+    position: absolute;
+    left: 50px;
+}
+.icon-face{
+    position: absolute;
+    left: 100px;
+}
+ .list{
+    position: relative;
+    bottom: 70px;
+    margin-left: 220px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+  
+ }
+
+
+
+
+
+
+
+/* end-footer */
+
+
+
+
+
